@@ -1,0 +1,157 @@
+@charset "UTF-8";
+.section-upper {
+  position: relative;
+  display: block;
+  height: 100vh;
+  padding-bottom: 2.6em;
+  -webkit-box-orient: vertical;
+  -webkit-box-pack: end;
+  background-color: #211b29;
+}
+.section-upper .sec-up-in {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+  will-change: opacity;
+  position: relative;
+  display: flex;
+  height: 100vh;
+  padding-bottom: 2.6em;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: #211b29;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+@media (max-width: 479px) {
+  .section-upper .sec-up-in {
+    padding-bottom: 10.2em;
+    background-size: cover;
+  }
+}
+.section-upper .sec-up-in .nav-bar {
+  transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+  opacity: 1;
+  position: relative;
+  z-index: 9;
+  width: 100%;
+  margin-top: 25px;
+}
+.section-upper .sec-up-in .nav-bar .nav-bar-in {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  max-width: 1440px;
+  min-height: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.section-upper .sec-up-in .nav-bar .nav-bar-in .lb-logo {
+  display: flex;
+  width: 150px;
+  height: 70px;
+  align-items: center;
+  max-width: 100%;
+  background-color: transparent;
+}
+.section-upper .sec-up-in .nav-bar .nav-bar-in .lb-logo img {
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+.section-upper .sec-up-in .nav-bar .nav-bar-in .btn-nav {
+  display: flex;
+  align-items: center;
+  -webkit-box-flex: 0;
+  background-color: rgb(201, 20, 89);
+  font-family: "Söhne buch", sans-serif;
+  padding: 14px 32px;
+  flex: 0 0 auto;
+  border-radius: 100px;
+  color: white;
+  border: 0;
+  line-height: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+@media (max-width: 479px) {
+  .section-upper .sec-up-in .nav-bar .nav-bar-in .btn-nav {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+}
+.section-upper .sec-up-in .cc-gradient-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  background-image: linear-gradient(180deg, transparent 17%, rgba(24, 19, 29, 0.71) 71%, #211b29 90%);
+}
+.section-upper .sec-up-in .c-main {
+  position: relative;
+  max-width: 1100px;
+  text-align: center;
+  min-height: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+@media (max-width: 479px) {
+  .section-upper .sec-up-in .c-main {
+    padding: 0 20px;
+  }
+}
+.section-upper .sec-up-in .c-main .e-hero-bar {
+  opacity: 1;
+  transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Söhne kräftig", sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 15px 34px;
+  border: solid 2px rgb(255, 255, 255);
+  border-radius: 100px;
+}
+@media (max-width: 479px) {
+  .section-upper .sec-up-in .c-main .e-hero-bar {
+    padding: 5px 15px;
+    font-size: 11px;
+  }
+}
+.section-upper .sec-up-in .c-main h1 {
+  opacity: 1;
+  text-align: center;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 24px;
+  font-family: Ivardisplay, sans-serif;
+  font-size: 6em;
+  line-height: 100%;
+  font-weight: 400;
+  margin: 0.67em 0;
+}
+@media (max-width: 991px) {
+  .section-upper .sec-up-in .c-main h1 {
+    font-size: 5em;
+  }
+}
+@media (max-width: 479px) {
+  .section-upper .sec-up-in .c-main h1 {
+    font-size: 2.7em;
+  }
+}
+.section-upper .sec-up-in .c-main h1 .italic {
+  font-style: italic;
+}

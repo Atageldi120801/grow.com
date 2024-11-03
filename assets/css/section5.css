@@ -1,0 +1,178 @@
+@charset "UTF-8";
+.section5 {
+  z-index: 5;
+  position: relative;
+}
+.section5 .s5-intro {
+  display: block;
+}
+.section5 .s5-intro .hs_cos_wrapper.hs_cos_wrapper_widget.hs_cos_wrapper_type_module div {
+  z-index: 5;
+  position: relative;
+}
+.section5 .s5-intro .hs_cos_wrapper.hs_cos_wrapper_widget.hs_cos_wrapper_type_module div .insights-two-col {
+  background-color: #fff;
+  color: #000;
+  background-position: 50%;
+  background-size: cover;
+  min-height: 50px;
+  position: relative;
+  padding: 210px 50px;
+}
+@media (max-width: 991px) {
+  .section5 .s5-intro .hs_cos_wrapper.hs_cos_wrapper_widget.hs_cos_wrapper_type_module div .insights-two-col {
+    padding: 50px 20px;
+  }
+}
+@media (min-width: 769px) {
+  .section5 .s5-intro .hs_cos_wrapper.hs_cos_wrapper_widget.hs_cos_wrapper_type_module div .insights-two-col .insights-two-col__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 79px;
+    grid-row-gap: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1440px;
+  }
+}
+.section5 .s5-intro .hs_cos_wrapper.hs_cos_wrapper_widget.hs_cos_wrapper_type_module div .insights-two-col .insights-two-col__wrapper .insights-two-col__left {
+  color: #000;
+}
+.section5 .s5-intro .hs_cos_wrapper.hs_cos_wrapper_widget.hs_cos_wrapper_type_module div .insights-two-col .insights-two-col__wrapper .insights-two-col__left .insights-two-col__headline.insights-two-col__headline-large {
+  font-family: Ivarheadline;
+  font-weight: 400;
+  line-height: 100%;
+  margin-bottom: 24px;
+  margin-top: 20px;
+}
+@media (min-width: 769px) {
+  .section5 .s5-intro .hs_cos_wrapper.hs_cos_wrapper_widget.hs_cos_wrapper_type_module div .insights-two-col .insights-two-col__wrapper .insights-two-col__left .insights-two-col__headline.insights-two-col__headline-large {
+    font-size: 95px;
+    text-align: left;
+  }
+}
+@media (max-width: 479px) {
+  .section5 .s5-intro .hs_cos_wrapper.hs_cos_wrapper_widget.hs_cos_wrapper_type_module div .insights-two-col .insights-two-col__wrapper .insights-two-col__left .insights-two-col__headline.insights-two-col__headline-large {
+    font-size: 3.5em;
+    text-align: center;
+  }
+}
+.section5 .s5-intro .hs_cos_wrapper.hs_cos_wrapper_widget.hs_cos_wrapper_type_module div .insights-two-col .insights-two-col__wrapper .insights-two-col__left .insights-two-col__headline.insights-two-col__headline-large .rubine {
+  color: #c91459;
+  font-style: italic;
+}
+@media (min-width: 769px) {
+  .section5 .s5-intro .hs_cos_wrapper.hs_cos_wrapper_widget.hs_cos_wrapper_type_module div .insights-two-col .insights-two-col__wrapper .insights-two-col__left .insights-two-col__headline.insights-two-col__headline-large .rubine {
+    font-size: 98px;
+    text-align: left;
+  }
+}
+.section5 .s5-intro .hs_cos_wrapper.hs_cos_wrapper_widget.hs_cos_wrapper_type_module div .insights-two-col .insights-two-col__wrapper .insights-two-col__left .insights-two-col__description {
+  letter-spacing: 0.002em;
+  line-height: 142%;
+  margin-bottom: 24px;
+}
+@media (min-width: 769px) {
+  .section5 .s5-intro .hs_cos_wrapper.hs_cos_wrapper_widget.hs_cos_wrapper_type_module div .insights-two-col .insights-two-col__wrapper .insights-two-col__left .insights-two-col__description {
+    font-size: 22px;
+    text-align: left;
+    text-align: center;
+  }
+}
+@media (max-width: 991px) {
+  .section5 .s5-intro .hs_cos_wrapper.hs_cos_wrapper_widget.hs_cos_wrapper_type_module div .insights-two-col .insights-two-col__wrapper .insights-two-col__left .insights-two-col__description {
+    font-size: 1rem;
+  }
+}
+.section5 .s5-intro .hs_cos_wrapper.hs_cos_wrapper_widget.hs_cos_wrapper_type_module div .insights-two-col .insights-two-col__wrapper .insights-two-col__right {
+  color: #000;
+}
+.section5 .s5-intro .hs_cos_wrapper.hs_cos_wrapper_widget.hs_cos_wrapper_type_module div .insights-two-col .insights-two-col__wrapper .insights-two-col__right .insights-two-col__form {
+  background-color: #f4f4f4;
+  padding: 40px;
+  color: #000;
+}
+.section5 .s5-intro .hs_cos_wrapper.hs_cos_wrapper_widget.hs_cos_wrapper_type_module div .insights-two-col .insights-two-col__wrapper .insights-two-col__right .insights-two-col__form .insights-two-col__form-title {
+  color: #000;
+  font-family: Ivarheadline;
+  font-size: 42px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  line-height: 110%;
+  margin-bottom: 24px;
+  margin-top: 20px;
+}
+@media (max-width: 991px) {
+  .section5 .s5-intro .hs_cos_wrapper.hs_cos_wrapper_widget.hs_cos_wrapper_type_module div .insights-two-col .insights-two-col__wrapper .insights-two-col__right .insights-two-col__form .insights-two-col__form-title {
+    font-size: 38px;
+  }
+}
+.section5 .s5-intro .hs_cos_wrapper.hs_cos_wrapper_widget.hs_cos_wrapper_type_module div .insights-two-col .insights-two-col__wrapper .insights-two-col__right .insights-two-col__form .hs_cos_wrapper.hs_cos_wrapper_widget.hs_cos_wrapper_type_form .hs_cos_wrapper_form_608228931_title {
+  font-size: 24px;
+}
+.section5 .s5-intro .hs_cos_wrapper.hs_cos_wrapper_widget.hs_cos_wrapper_type_module div .insights-two-col .insights-two-col__wrapper .insights-two-col__right .insights-two-col__form .hs_cos_wrapper.hs_cos_wrapper_widget.hs_cos_wrapper_type_form .hs_form_target_form_608228931 form {
+  margin-bottom: 30px;
+  display: block;
+  margin-top: 0em;
+}
+.section5 .s5-intro .hs_cos_wrapper.hs_cos_wrapper_widget.hs_cos_wrapper_type_module div .insights-two-col .insights-two-col__wrapper .insights-two-col__right .insights-two-col__form .hs_cos_wrapper.hs_cos_wrapper_widget.hs_cos_wrapper_type_form .hs_form_target_form_608228931 form .hs_email.hs-email.hs-fieldtype-text.field.hs-form-field {
+  margin-bottom: 20px;
+  position: relative;
+  height: 58px;
+}
+.section5 .s5-intro .hs_cos_wrapper.hs_cos_wrapper_widget.hs_cos_wrapper_type_module div .insights-two-col .insights-two-col__wrapper .insights-two-col__right .insights-two-col__form .hs_cos_wrapper.hs_cos_wrapper_widget.hs_cos_wrapper_type_form .hs_form_target_form_608228931 form .hs_email.hs-email.hs-fieldtype-text.field.hs-form-field label {
+  color: rgb(0, 0, 0);
+  font-family: "Söhne buch", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  line-height: 1.2;
+  pointer-events: none;
+  display: block;
+  margin-bottom: 5px;
+}
+.section5 .s5-intro .hs_cos_wrapper.hs_cos_wrapper_widget.hs_cos_wrapper_type_module div .insights-two-col .insights-two-col__wrapper .insights-two-col__right .insights-two-col__form .hs_cos_wrapper.hs_cos_wrapper_widget.hs_cos_wrapper_type_form .hs_form_target_form_608228931 form .hs_email.hs-email.hs-fieldtype-text.field.hs-form-field legend {
+  display: none;
+}
+.section5 .s5-intro .hs_cos_wrapper.hs_cos_wrapper_widget.hs_cos_wrapper_type_module div .insights-two-col .insights-two-col__wrapper .insights-two-col__right .insights-two-col__form .hs_cos_wrapper.hs_cos_wrapper_widget.hs_cos_wrapper_type_form .hs_form_target_form_608228931 form .hs_email.hs-email.hs-fieldtype-text.field.hs-form-field .input .hs-input {
+  padding: 6px;
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+  color: #000;
+  line-height: 1.15;
+  margin: 0;
+  background-color: #fff;
+  border: 0.5px solid #f4f4f4;
+  border-radius: 2px;
+  font-size: 16px;
+  font: inherit;
+}
+.section5 .s5-intro .hs_cos_wrapper.hs_cos_wrapper_widget.hs_cos_wrapper_type_module div .insights-two-col .insights-two-col__wrapper .insights-two-col__right .insights-two-col__form .hs_cos_wrapper.hs_cos_wrapper_widget.hs_cos_wrapper_type_form .hs_form_target_form_608228931 form .hs_submit {
+  height: 42px;
+}
+.section5 .s5-intro .hs_cos_wrapper.hs_cos_wrapper_widget.hs_cos_wrapper_type_module div .insights-two-col .insights-two-col__wrapper .insights-two-col__right .insights-two-col__form .hs_cos_wrapper.hs_cos_wrapper_widget.hs_cos_wrapper_type_form .hs_form_target_form_608228931 form .hs_submit .hs-field-desc {
+  display: none;
+  width: 100%;
+}
+.section5 .s5-intro .hs_cos_wrapper.hs_cos_wrapper_widget.hs_cos_wrapper_type_module div .insights-two-col .insights-two-col__wrapper .insights-two-col__right .insights-two-col__form .hs_cos_wrapper.hs_cos_wrapper_widget.hs_cos_wrapper_type_form .hs_form_target_form_608228931 form .hs_submit .actions .hs-button.primary.large {
+  color: #fff;
+  background-color: #ce0058;
+  font-family: "Sohne", Arial, sans-serif;
+  font-weight: 500;
+  border-radius: 60px;
+  letter-spacing: 0.03em;
+  line-height: 1;
+  font-size: 18px;
+  text-align: center;
+  padding: 12px 24px;
+  border: 0;
+  margin: 0;
+  display: inline-block;
+  transition: 0.1s ease-in;
+  width: 100%;
+}
+.section5 .s5-intro .hs_cos_wrapper.hs_cos_wrapper_widget.hs_cos_wrapper_type_module div .insights-two-col .insights-two-col__wrapper .insights-two-col__right .insights-two-col__form .hs_cos_wrapper.hs_cos_wrapper_widget.hs_cos_wrapper_type_form .hs_form_target_form_608228931 form .hs_submit .actions .hs-button.primary.large:hover {
+  background-color: #9f1430;
+}
